@@ -15,35 +15,58 @@ body {
   margin: auto;
 }
 
-header{
-    background-color: black;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
+header {
+  background-color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 
-#hero, #about, #porfolio, #contact{
-    padding: 120px 0;
+header .logo {
+  color: #444;
+  font-size: 18px;
+  text-decoration: none;
 }
 
-#hero{
-    background-color: aqua;
+header nav ul {
+  display: flex;
+  gap: 30px;
 }
 
-#about{
-    background-color: purple;
+header nav ul li {
+  list-style: none;
 }
 
-#porfolio{
-    background-color: blueviolet;
+header nav ul li a {
+  color: #444;
+  text-decoration: none;
 }
 
-#contact{
-    background-color:brown ;
+#hero,
+#about,
+#porfolio,
+#contact {
+  padding: 120px 0;
 }
 
-.h1{
-    background-image: -o-linear-gradient();
+#hero {
+  background-color: aqua;
+}
+
+#about {
+  background-color: purple;
+}
+
+#porfolio {
+  background-color: blueviolet;
+}
+
+#contact {
+  background-color: brown;
+}
+
+.h1 {
+  background-image: -o-linear-gradient();
 }
