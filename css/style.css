@@ -46,8 +46,7 @@ header nav ul li a {
 
 #hero,
 #about,
-#porfolio,
-#contact {
+#porfolio {
   padding: 120px 0;
 }
 
@@ -199,9 +198,67 @@ header nav ul li a {
 }
 
 #contact {
-  background-color: brown;
+  background-color: #e3e3e3;
+  padding-top: 70px;
 }
 
-.h1 {
-  background-image: -o-linear-gradient();
+.contact-wrapper {
+  background-color: #fff;
+  padding: 70px 150px;
+  border-top-left-radius: 100px;
+  display: flex;
+}
+
+.contact-info {
+  width: 30%;
+}
+
+.contact-info h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+form {
+  width: 70%;
+  padding: 20px;
+  background-color: teal;
+  border-radius: 15px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  color: #fff;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  padding: 10px 7px;
+  border: none;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 12px 50px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: transparent;
+  color: #fff;
 }
